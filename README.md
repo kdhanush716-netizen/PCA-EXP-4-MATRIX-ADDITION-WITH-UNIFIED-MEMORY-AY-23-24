@@ -38,6 +38,7 @@ Allocate Host Memory
 22.	Reset the device using cudaDeviceReset and return from the main function.
 
 ## PROGRAM:
+```
 %%cuda
 #include <stdio.h>
 #include <cuda_runtime.h>
@@ -271,9 +272,10 @@ int main(int argc, char **argv)
 
     return (0);
 }
+```
 
 
-
+```
 %%cuda
 #include <stdio.h>
 #include <cuda_runtime.h>
@@ -508,7 +510,7 @@ int main(int argc, char **argv)
 
     return (0);
 }
-
+```
 ## OUTPUT:
 <img width="1086" height="147" alt="Screenshot 2026-08-28 231129" src="https://github.com/user-attachments/assets/0d7f5b6b-05c4-470b-bcc7-1413d6af29b7" />
 <img width="1037" height="132" alt="Screenshot 2026-08-28 231150" src="https://github.com/user-attachments/assets/6705b5f8-e420-440d-9816-a9f232862628" />
